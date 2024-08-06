@@ -1,0 +1,30 @@
+package com.mycompany.agsfasayhfayfd;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author aluno.den
+ */
+public class Agsfasayhfayfd {
+
+    public static void main(String[] args) {
+        //Scanner
+        Scanner sc = new Scanner(System.in);
+
+        //variaveis
+        int numero;
+        System.out.println("Digite um número");
+        numero = sc.nextInt();
+
+        //ação
+        if (numero % 2 == 0) {
+            System.out.println("Numero digitado, é PAR");
+
+        } else {
+            System.out.println("Numero digitado, é IMPAR");
+
+        }
+        sc.close();
+
+    }}
