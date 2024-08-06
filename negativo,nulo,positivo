@@ -1,0 +1,43 @@
+
+
+package com.mycompany.agsfasayhfayfd;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author aluno.den
+ */
+public class Agsfasayhfayfd {
+
+    public static void main(String[] args) {
+          //Scanner
+        Scanner sc = new Scanner(System.in);
+        
+        //variaveis
+        int numero;
+        System.out.println("Digite um número");
+        numero = sc.nextInt();
+        
+        //ação
+        if (numero == 0) {
+            System.out.println("Numero digitado, é nulo");
+            
+            
+        }
+        else if(numero>0){
+            System.out.println("Numero digitado, é não negativo");
+            
+        }
+        else{
+             System.out.println("Numero digitado, é negativo");   
+                }    
+        
+        
+        sc.close();
+        
+        
+        
+    }
+}
+
